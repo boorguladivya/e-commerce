@@ -1,0 +1,171 @@
+.nav{
+    width:100%;
+    height:60px;
+    display:flex;
+    background-color: rgb(25, 3, 45);
+    color:white;   
+}
+.leftnav{
+    flex-basis: 40%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+}
+.rightnav{
+    flex-basis: 60%;
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    margin-right: 120px;
+    margin-top: 15px;
+}
+.links{
+    color:white;
+    font-size:3vh;
+    text-decoration: none;
+}
+
+.img{
+    width:100px;
+    height:100px;
+}
+
+.sub{
+    border:2px solid black;
+    background-color: white;
+    width:110px;
+    border-radius: 3px;
+    margin-top: 30px;
+    color:orangered;
+}
+.cart{
+    background-color: rgb(137, 250, 210);
+    width:330px;
+    align-items: center;
+    height:350px;
+    border-color: black;
+    color: rgb(214, 31, 3);
+    padding-top: 10px;
+}
+.data{
+    color:rgb(50, 16, 243);
+}
+
+.order{
+    background-color: rgb(157, 219, 246);
+    width:300px;
+    height:350px;
+}
+.order p{
+    color:rgb(187, 27, 12);
+}
+.btn{
+    background-color:rgb(105, 214, 50);
+}
+.totalPrice{
+    font-weight: bold;
+    color:rgb(71, 11, 128);
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    color:aqua;
+}
+.detailsDiv{
+    position: absolute;
+    top: 85px;
+    width:450px;
+    height:550px;
+    background-color:white;
+    display:flex ;
+    align-items:center ;
+    justify-content: center;
+    /* border: 2px solid rgb(200, 196, 196); */
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px gray;
+
+}
+.detailsForm{
+    font-weight: bold;
+    height:450px;
+    width:350px;
+    background-color:lightpink;
+    border-radius: 10px;
+    /* border: 2px solid rgb(200, 196, 196); */
+    box-shadow: 2px 1px 3px gray;
+}
+
+.ordUser{
+    margin-left:-90px;
+    color:rgb(87, 72, 147);
+}
+
+.ordEmail{
+    margin-left:-125px;   
+    color:rgb(87, 72, 147);
+}
+
+
+.ordPhn{
+    margin-left: -65px;
+    color:rgb(87, 72, 147);
+}
+.ordAdd{
+    margin-left:-45px;
+    color:rgb(87, 72, 147);
+}
+input{
+  border-radius: 5px;
+  height:20px;
+ }
+
+ .butn{
+    background-color: rgb(95, 242, 112);
+ }
+
+.userName{
+ /* margin-left:-110px; */
+ font-weight: bold;
+ color:rgb(187, 50, 116); 
+}
+.email{
+/* margin-left:-60px; */
+font-weight: bold;
+color:rgb(187, 50, 116); 
+}
+.phoneNumber{
+    /* margin-left:-38px; */
+    font-weight: bold;
+    color:rgb(187, 50, 116); 
+}
+.add{
+    /* margin-left:-33px; */
+    font-weight: bold;
+    color:rgb(196, 45, 161); 
+}
+span{
+    color:rgb(116, 83, 225);
+}
+
+
+.profileContainer {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: lightcyan
+  }
+  
+  .btn1{
+   margin-left: 30px;
+   background-color: palevioletred;
+  }
+  
+  
+  
+ 
+  
+  
